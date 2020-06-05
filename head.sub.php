@@ -62,9 +62,12 @@ if( defined('G5_IS_ADMIN') ) {
     
     <!-- icons -->
     <link href="<?php echo G5_ADMIN_URL ?>/assets/css/icons.css" rel="stylesheet" type="text/css" />
+    
+    <!-- Vendor js -->
+    <script src="<?php echo G5_ADMIN_URL ?>/assets/js/vendor.min.js"></script>
 
 </head>
-<body class="loading">
+<body class="loading <?php echo $bodyClass ?>">
 <?php
 } else {
 ?>

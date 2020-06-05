@@ -424,11 +424,7 @@ $print_version = defined('G5_YOUNGCART_VER') ? 'YoungCart Version '.G5_YOUNGCART
             </div>
         </footer>
         <!-- end Footer -->
-        
-        
-        
-        <!-- Vendor js -->
-        <script src="<?php echo G5_ADMIN_URL ?>/assets/js/vendor.min.js"></script>
+
 
         <!-- Plugins js-->
         <script src="<?php echo G5_ADMIN_URL ?>/assets/libs/flatpickr/flatpickr.min.js"></script>
